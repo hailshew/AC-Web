@@ -1,7 +1,9 @@
+/*Background color*/
 body {
   background-color: #a4d4a2;
 }
 
+/*Navigation Bars*/
 nav {
   display: block;
   text-align: center;
@@ -66,7 +68,7 @@ nav ul {
 .nav li li a {
   margin-top: 1px;
 }
-/*Magic*/
+/*Navbar Magic!*/
 .nav li a:first-child:nth-last-child(2):before {
   content: "";
   position: absolute;
@@ -112,3 +114,34 @@ nav ul {
   border-right-color: #bee893;
   right: 10px;
 }
+
+/*General Fonts, Writing, etc. */
+h1 {
+  padding-top: 50px;
+  font-family: "Georgia", serif;
+  font-size: 68px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Page: About */
+/* Page: Tools */
+/* Page: Inventory */
+/* Page: Phone */
+/* Page: Map */
+/* Page: Villagers */
+/* Page: NPCs */
+/* Page: Nook Miles */
+/* Page: Seasons */
+/* Page: Crafting and Building */
+/* Page: Fish */
+/* Page: Bugs */
+/* Page: Fish */
