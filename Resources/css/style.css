@@ -127,8 +127,15 @@ h1 {
 
 p {
   font-family: "Georgia", serif;
-  font-size: 36px;
+  font-size: 26px;
   color: #000000;
+  text-align: center;
+}
+
+/*Tables*/
+table, th, td {
+  border: none;
+  border-collapse: collapse;
   text-align: center;
 }
 
@@ -143,5 +150,13 @@ p {
 /* Page: Seasons */
 /* Page: Crafting and Building */
 /* Page: Fish */
+.fishhead {
+  height: 70px;
+  background-color: #fcea64;
+}
+
+.evenfish {
+  background-color: #68b893;
+}
 /* Page: Bugs */
 /* Page: Fish */

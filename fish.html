@@ -48,13 +48,16 @@
 
 <h1 class="fish_title">Fish</h1>
 
-<p>There are 80 species of fish you can catch in New Horizons. The following
-  table shows all the types of fish available, where and when to catch them
+<p>There are 80 species of fish you can catch in New Horizons. Any fish species you catch
+  will appear in your Critterpedia. You can sell fish or donate each species to the Museum.</p>
+
+  <center><img src="Resources\images\Fish Icons\fishmuseum.jpg" alt="Museum aquarium" width="768 height="432"></center>
+  <p>The following table shows all the types of fish available, where and when to catch them
   and how much you can sell them for. <strong>Note!</strong> The times and months given
 are based on the <strong>Northern Hemisphere</strong>.</p>
-
+<center>
 <table>
-  <tr>
+  <tr class="fishhead">
     <th>Name</th>
     <th>Image</th>
     <th>Sale Price</th>
@@ -63,14 +66,14 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
     <th>Months</th>
   </tr>
   <tr>
-    <td>Bitterling</td>
+    <td class="oddfish">Bitterling</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-bitterling.webp" alt="Image of bitterling"></td>
     <td>900</td>
     <td>River</td>
     <td>All day</td>
     <td>Nov-Mar</td>
   </tr>
-  <tr>
+  <tr class="evenfish">
     <td>Pale Chub</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-palechub.webp" alt="Image of pale chub"></td>
     <td>200</td>
@@ -86,7 +89,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
     <td>All day</td>
     <td>All year</td>
   </tr>
-  <tr>
+  <tr class="evenfish">
     <td>Dace</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-dace.webp" alt="Image of dace"></td>
     <td>240</td>
@@ -102,7 +105,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
     <td>All day</td>
     <td>All year</td>
   </tr>
-  <tr>
+  <tr class="evenfish">
     <td>Koi</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-koi.webp" alt="Image of koi"></td>
     <td>4,000</td>
@@ -118,7 +121,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
     <td>All day</td>
     <td>All year</td>
   </tr>
-  <tr>
+  <tr class="evenfish">
     <td>Pop-eyed Goldfish</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-popeyedgoldfish.webp" alt="Image of pop-eyed goldfish"></td>
     <td>1,300</td>
@@ -134,7 +137,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
     <td>9am-4pm</td>
     <td>All year</td>
   </tr>
-  <tr>
+  <tr class="evenfish">
     <td>Killifish</td>
     <td><img src="Resources\images\Fish Icons\NH-Icon-killifish.webp" alt="Image of killifish"></td>
     <td>300</td>
@@ -150,7 +153,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Apr-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Soft-shelled Turtle</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-softshelledturtle.webp" alt="Image of soft-shelled turtle"></td>
   <td>3,750</td>
@@ -166,7 +169,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9pm-4am</td>
   <td>Apr-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Tadpole</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-tadpole.webp" alt="Image of tadpole"></td>
   <td>100</td>
@@ -182,7 +185,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>May-Aug</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Freshwater Goby</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-freshwatergoby.webp" alt="Image of freshwater goby"></td>
   <td>400</td>
@@ -198,7 +201,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Mar-May</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Catfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-catfish.webp" alt="Image of catfish"></td>
   <td>800</td>
@@ -214,7 +217,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9am-4pm</td>
   <td>Jun-Aug</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Bluegill</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-bluegill.webp" alt="Image of bluegill"></td>
   <td>180</td>
@@ -230,7 +233,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Oct-Mar</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Black Bass</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-blackbass.webp" alt="Image of black bass"></td>
   <td>400</td>
@@ -246,7 +249,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Jun-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Pike</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-pike.webp" alt="Image of pike"></td>
   <td>1,800</td>
@@ -262,7 +265,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Dec-Feb</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Sweetfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-sweetfish.webp" alt="Image of sweetfish"></td>
   <td>900</td>
@@ -278,7 +281,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Mar-Jun, Sep-Nov</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Char</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-char.webp" alt="Image of char"></td>
   <td>3,800</td>
@@ -294,7 +297,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9an</td>
   <td>Mar-May, Sep-Nov</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Stringfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-stringfish.webp" alt="Image of stringfish"></td>
   <td>15,000</td>
@@ -310,7 +313,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>King Salmon</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-kingsalmon.webp" alt="Image of king salmon"></td>
   <td>1,800</td>
@@ -326,7 +329,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Sep-Nov</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Guppy</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-guppy.webp" alt="Image of guppy"></td>
   <td>1,300</td>
@@ -342,7 +345,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9am-4pm</td>
   <td>May-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Angelfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-angelfish.webp" alt="Image of angelfish"></td>
   <td>3,000</td>
@@ -358,7 +361,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9am-4pm</td>
   <td>May-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Neon Tetra</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-neontetra.webp" alt="Image of neon tetra"></td>
   <td>500</td>
@@ -374,7 +377,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9am-4pm</td>
   <td>May-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Piranha</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-piranha.webp" alt="Image of piranha"></td>
   <td>2,500</td>
@@ -390,7 +393,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Jun-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Dorado</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-dorado.webp" alt="Image of dorado"></td>
   <td>15,000</td>
@@ -406,7 +409,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Jun-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Arapaima</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-arapaima.webp" alt="Image of arapiama"></td>
   <td>10,000</td>
@@ -422,7 +425,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9pm-4am</td>
   <td>Jun-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Sturgeon</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-sturgeon.webp" alt="Image of sturgeon"></td>
   <td>10,000</td>
@@ -438,7 +441,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Dec-Mar</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Sea Horse</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-seahorse.webp" alt="Image of sea horse"></td>
   <td>1,100</td>
@@ -454,7 +457,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Apr-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Surgeonfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-surgeonfish.webp" alt="Image of surgeonfish"></td>
   <td>1,000</td>
@@ -470,7 +473,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Apr-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Napoleonfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-napoleonfish.webp" alt="Image of napoleonfish"></td>
   <td>10,000</td>
@@ -486,7 +489,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Apr-Nov</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Blowfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-blowfish.webp" alt="Image of blowfish"></td>
   <td>5,000</td>
@@ -502,7 +505,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Jul-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Anchovy</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-anchovy.webp" alt="Image of anchovy"></td>
   <td>200</td>
@@ -518,7 +521,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>All year</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Barred Knifejaw</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-barredknifejaw.webp" alt="Image of barred knifejaw"></td>
   <td>5,000</td>
@@ -534,7 +537,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>All year</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Red Snapper</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-redsnapper.webp" alt="Image of red snapper"></td>
   <td>3,000</td>
@@ -550,7 +553,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Oct-Apr</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Oliver Flounder</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-oliveflounder.webp" alt="Image of olive flounder"></td>
   <td>800</td>
@@ -566,7 +569,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Dec-Aug</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Moray Eel</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-morayeel.webp" alt="Image of moray eel"></td>
   <td>2,000</td>
@@ -582,7 +585,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Jun-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Tuna</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-tuna.webp" alt="Image of tuna"></td>
   <td>7,000</td>
@@ -598,7 +601,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>Nov-Apr, Jul-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Giant Trevally</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-gianttrevally.webp" alt="Image of giant trevally"></td>
   <td>4,500</td>
@@ -614,9 +617,9 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All day</td>
   <td>May-Oct</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Ocean Sunfish</td>
-  <td><img src="Resources\images\Fish Icons\NH-Icon-mahimahi.webp" alt="Image of ocean sunfish"></td>
+  <td><img src="Resources\images\Fish Icons\NH-Icon-oceansunfish.webp" alt="Image of ocean sunfish"></td>
   <td>4,000</td>
   <td>Sea</td>
   <td>4am-9pm</td>
@@ -630,7 +633,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4am-9pm</td>
   <td>Aug-Nov</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Saw Shark</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-sawshark.webp" alt="Image of saw shark"></td>
   <td>12,000</td>
@@ -646,7 +649,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Jun-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Great White Shark</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-greatwhiteshark.webp" alt="Image of great white shark"></td>
   <td>15,000</td>
@@ -656,13 +659,13 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
 </tr>
 <tr>
   <td>Whale Shark</td>
-  <td><img src="Resources\images\Fish Icons\NH-Icon-greatwhiteshark.webp" alt="Image of whale shark"></td>
+  <td><img src="Resources\images\Fish Icons\NH-Icon-whaleshark.webp" alt="Image of whale shark"></td>
   <td>13,000</td>
   <td>Sea</td>
   <td>All day</td>
   <td>Jun-Sep</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Suckerfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-suckerfish.webp" alt="Image of suckerfish"></td>
   <td>1,500</td>
@@ -678,7 +681,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>4pm-9am</td>
   <td>Nov-Mar</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Oarfish</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-oarfish.webp" alt="Image of oarfish"></td>
   <td>9,000</td>
@@ -694,7 +697,7 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>9pm-4am</td>
   <td>All year</td>
 </tr>
-<tr>
+<tr class="evenfish">
   <td>Coelacanth</td>
   <td><img src="Resources\images\Fish Icons\NH-Icon-coelacanth.webp" alt="Image of coelacanth"></td>
   <td>15,000</td>
@@ -703,7 +706,6 @@ are based on the <strong>Northern Hemisphere</strong>.</p>
   <td>All year</td>
 </tr>
 </table>
-
-
-
+</center>
+<br><br>
 </body>
