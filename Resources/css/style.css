@@ -159,4 +159,12 @@ table, th, td {
   background-color: #68b893;
 }
 /* Page: Bugs */
-/* Page: Fish */
+.bughead {
+  height: 70px;
+  background-color: #fcea64;
+}
+
+.evenbug {
+  background-color: #68b893;
+}
+/* Page: Sea Creatures */
