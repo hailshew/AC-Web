@@ -155,6 +155,11 @@ table {
 /* Page: Seasons */
 /* Page: Crafting and Building */
 /* Page: Fish */
+.critterintro {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .fishhead {
   height: 70px;
   background-color: #fcea64;
