@@ -178,3 +178,10 @@ table {
   background-color: #68b893;
 }
 /* Page: Sea Creatures */
+.seacreaturehead {
+  height: 70px;
+  background-color: #fcea64;
+}
+.evenseacreature {
+  background-color: #68b893;
+}
